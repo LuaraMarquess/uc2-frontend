@@ -1,0 +1,8 @@
+/*Quando eu quero criar uma classe, eu coloco . no início */
+.borda-produto{
+    /*Bordar style define o estilo de borda para utilizar*/
+    border-style: solid;
+    /*border-width define a largura da borda*/
+    border-width: 0.3rem;
+
+}
