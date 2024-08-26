@@ -7,6 +7,10 @@
     line-height: 30rem; /*Alinha verticalmente caso mesmo valor de heigh seja definido */
     font-size: 1.3rem; /*Tamanho da fonte */
     font-family: Arial, Helvetica, sans-serif;
+    margin:auto;/*Alinhar no centro do html o quadrado */
+    border-style: solid;
+    border-width: 0.5.rem;
+    border-color: black;
     
 }
 table {
