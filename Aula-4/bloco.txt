@@ -1,0 +1,11 @@
+ALT + S + F = IDENTAÇÃO
+vai aparecer a opção para confirmar o PRETTIER(Confirma)
+Instalar a extensão PRETTIER , HTML BOILERPLATE, LIVE SERVER.
+ctrl + ;  ---> Comentario em todas as linguagens aqui no vs code
+ctrl + b
+4  devs site gerador
+ 
+ Maniero
+
+ https://aartedocodigo.quora.com/Por-que-n%C3%A3o-se-recomenda-mais-usar-
+ indica%C3%A7%C3%A3o-do-tipo-de-dados-nos-nomes-de-vari%C3%A1veis-como-em-string-strMyVar

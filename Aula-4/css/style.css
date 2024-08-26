@@ -1,0 +1,27 @@
+.quadrado{
+    height: 30rem;/*Altura */
+    width:30rem; /*Largura */
+    background-color:purple; /*Fundo da página */
+    text-align: center; /*Colocar o texto alinhado*/
+    color: yellow; /*Cor da Fonte**/
+    line-height: 30rem; /*Alinha verticalmente caso mesmo valor de heigh seja definido */
+    font-size: 1.3rem; /*Tamanho da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+table {
+    margin-top: 30px;   
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
