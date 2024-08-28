@@ -1,0 +1,39 @@
+.logo-mulheres-tech{
+    height: 30rem;
+    width: 30rem;
+    background-color:purple;
+    text-align: center;
+    line-height: 30rem;/*Centraliza texto verticalmente*/
+    color:yellow;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+}
+.formulario{
+    
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(17, 17, 16);
+    text-align: center;
+    margin:auto;
+    
+}
+
+.form1{
+    font-size: 48px;
+    color: #066a75;
+    padding: 2px 0 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight:10;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+ 
+ .btnenviar{
+    color: brown;
+    background-color: #74ff03;}
+/* Green */
