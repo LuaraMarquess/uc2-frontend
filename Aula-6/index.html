@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" a href="css/estilo.css">
+    <title>Aula 6</title>
+</head>
+<!--https://ninelabs.blog/tela-de-login-com-html-css/-->
+<body>
+    <div class="pageFormulario">
+        <h2>Cadastro de Produtos:</h2>
+        <form class="formcadastro" action="">
+            <label for="name"><strong>Nome:</strong></label>
+            <input type="text"= id="name" name = "name" value="" size="20"/>
+        <!--<label for="preco"><strong>Preço:</strong></label>
+            <input type="text" id="preco" placeholder="0.1" name="preco" placeholder="R$00,00">
+            <!--<input type="text" id="preco" step="1" placeholder="0.1" name="preco" placeholder="R$00,00">-->
+            <label for="preco">Preço</label>
+                <input
+                 class="currency-input"
+                 type="text"
+                 id="preco"
+                 name="preco"
+                 value=""
+                placeholder="R$00,00"/>
+
+            <label for="categoria"><strong>Categoria:</strong></label>
+            <select name="categoria" id="categoria">
+                <option value=""></option>
+                <option value="camisa">Camisa</option>
+                <option value="calca">Calça</option>
+                <option value="calçado">Calçados</option>
+            </select>
+        <br/>
+            <label for="tamanho"><strong>Tamanho:</strong></label>
+            <select name="tamanho" id="tamanho">
+                <option value=""></option>
+                <option value="pp">PP</option>
+                <option value="p">P</option>
+                <option value="m">M</option>
+                <option value="g">G</option>
+                <option value="gg">GG</option>
+                <option value="xg">XG</option>
+          </select>
+          <br/>
+        <label for="cor"><strong>Cor:</strong></label>
+        <select name="cor" id="cor">
+            <option value=""></option>
+            <option value="branco">Branco</option>
+            <option value="preto">Preto</option>
+         <option value="Azul">Azul</option>
+      </select><br/>
+    
+        <input type="submit" value="Cadastrar" class="btncadastrar"></input/>
+    </form>
+    </div>
+</body>
+<script>
+    function formatarParaReal(value) {
+          // Remove qualquer caractere que não seja número
+          const number = value.replace(/\D/g, '');
+          // Converte para float e divide por 100
+          const floatValue = parseFloat(number) / 100;
+          // Formata como moeda brasileira
+          return floatValue.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      }
+
+      document.getElementById('preco').addEventListener('input', function (event) {
+          const input = event.target;
+          const cursorPos = input.selectionStart; // Posição do cursor antes da alteração
+          const formattedValue = formatarParaReal(input.value);
+          
+          // Atualiza o valor do input com a formatação
+          input.value = formattedValue;
+      });
+  </script>
+
+</html>

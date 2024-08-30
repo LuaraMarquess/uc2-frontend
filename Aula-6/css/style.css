@@ -1,0 +1,16 @@
+.formulario{
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 30rem;
+    /*background-image: url('imagecss.jpg');
+    background-size:contain;*/
+
+}
+h2{
+    text-align:center;
+}
+.DynamicForm {
+	background-image: url('...\Documents\GitHub\uc2-frontend\Aula-6');
+	background-repeat: no-repeat;
+  	background-size: contain;
+}
