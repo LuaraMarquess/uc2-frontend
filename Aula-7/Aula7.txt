@@ -2,4 +2,6 @@ CTRL  + D + seleciona o que voce quer excluir
 
 https://ux.sapo.pt/usabilidade/web/formularios/
 
+CTRL + A = SELECIONA TD
+
 https://cheatsheets.zip/
