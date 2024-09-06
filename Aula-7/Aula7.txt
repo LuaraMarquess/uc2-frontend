@@ -5,3 +5,5 @@ https://ux.sapo.pt/usabilidade/web/formularios/
 CTRL + A = SELECIONA TD
 
 https://cheatsheets.zip/
+
+Sw + alt + 
